@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #673DE6;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font: 25px sans-serif;
+}
+
+.parallax{
+    height: 100vh;
+    background-clip: border-box; /** Note: if we set backgroud-clip:border-box it will extend underneath the border*/
+    background-attachment: fixed; /** it will make the backgroud fixed as you scroll the  page*/
+    background-size: cover;
+}
+#section-1{
+    background-image: url(./asset/bg\ \(1\).jpg);
+}
+#section-2{
+    background-image: url(./asset/bg\ \(2\).jpg);
+}
+#section-3{
+    background-image: url(./asset/bg\ \(3\).jpg);
+}
